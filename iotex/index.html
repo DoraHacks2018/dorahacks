@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>IoTeX</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/templatemo_misc.css">
+    <link rel="stylesheet" href="css/templatemo_style.css">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+
+    <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    <script src="js/vendor/particles.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <div class="banner-content">
+                        <h6 style="word-wrap:break-word">Joining Together to Support The Next Generation of Hackers.</h6>
+                        <img class="logo1" src="./img/logo1.svg" />
+                        <img class="logo3" src="./img/x-s-w.png" />
+                        <img class="logo2" src="./img/logo2.png" />
+                        <!-- <ul class="buttons">
+                            <li>
+                                <div class="primary-button">
+                                    <a href="https://iotex.io/">IoTeX主页</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="secondary-button">
+                                    <a href="https://iotex.io/white-paper">LoTeX白皮书</a>
+                                </div>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p id="introduce">DoraHacks deliver this announcement that IoTeX has just become DoraHacks' new partner, and would cooperate together to build a wonderful world with technology.</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <section id="about" class="page-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="service-item first-service">
+                        <h4>HAND IN HAND</h4>
+                        <p>DoraHacks is proud to announce our new partner - IoTeX. Together, we will connect and inspire hackers from around the world to solve real-world problems. Join us on our mission!</p>
+                        <span class="line"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="service-item second-service">
+                        <h4>Donate to the future</h4>
+                        <p>IoTeX will support DoraHack's mission with donations from their community through the IoTeX Charity Program. IoTeX will also provide mentorship and advisory to DoraHackers in several ways, including providing use cases and IoT hardware devices for DoraHacks hackathons.</p>
+                        <span class="line"></span>                            
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="service-item third-service">
+                        <h4>Traceability of Donations</h4>
+                        <p>DoraHacks received donations from around the world via IoTeX's smart contract - it's not too late to donate!</p>
+                        <br>
+                        <p>ETH Wallet Address : </p>
+                        <p style="color:#F26F21;word-wrap:break-word; word-break:break-all;">0x4937b01fdff0A02cC8416b5bd6C76a98958C85F1</p>
+                        <span class="line"></span>                        
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="service-item forth-service">
+                        <h4>LEARN MORE</h4>
+                        <button class="but" onclick="window.location.href='https://iotex.io/'">IoTeX</button>
+                        <button class="but" onclick="window.location.href='https://medium.com/iotex/iotex-charity-program-ii-dorahacks-b5828a4c5681'">MEDIUM BLOG</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="particles-js"></div>
+
+    <script src="js/vendor/jquery-1.11.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <script src="js/vendor/jquery.gmap3.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            // mobile nav toggle
+            $('#nav-toggle').on('click', function (event) {
+                event.preventDefault();
+                $('#main-nav').toggleClass("open");
+            });
+        });
+
+        /* particlesJS('dom-id', params);
+        /* @dom-id : set the html tag id [string, optional, default value : particles-js]
+        /* @params: set the params [object, optional, default values : check particles.js] */
+
+        /* config dom id (optional) + config particles params */
+        var nb = document.body.clientWidth / 15;
+
+        particlesJS('particles-js', {
+            particles: {
+                color: '#F26F21',
+                shape: 'circle', // "circle", "edge" or "triangle"
+                opacity: 1,
+                size: 2,
+                size_random: true,
+                nb: nb,
+                line_linked: {
+                    enable_auto: false,
+                    distance: 100,
+                    color: '#F26F21',
+                    opacity: 0,
+                    width: 0,
+                    condensed_mode: {
+                        enable: false,
+                        rotateX: 600,
+                        rotateY: 600
+                    }
+                },
+                anim: {
+                    enable: true,
+                    speed: 1
+                }
+            },
+            interactivity: {
+                enable: false,
+                mouse: {
+                    distance: 250
+                },
+                detect_on: 'canvas', // "canvas" or "window"
+                mode: 'grab',
+                line_linked: {
+                    opacity: .5
+                },
+                events: {
+                    onclick: {
+                        enable: true,
+                        mode: 'push', // "push" or "remove" (particles)
+                        nb: 4
+                    }
+                }
+            },
+            /* Retina Display Support */
+            retina_detect: true
+        });
+    </script>
+
+    <!-- templatemo 406 flex -->
+</body>
+
+</html>

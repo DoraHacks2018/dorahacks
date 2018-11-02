@@ -1,0 +1,41 @@
+body {
+    background-color: #000;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 30px auto 30px auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 100;
+}
+
+
+#dora{
+    width: 50%;
+}
+
+
+#tie1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+
+.logos {
+    width: 70%;
+    z-index: inherit;
+}
